@@ -31,3 +31,10 @@ print('Задача 6. Метеостанция')
 # 20       68
 # 40       104
 # 50       122
+
+low_line = int(input('Введите верхнюю границу'))
+hight_line = int(input('Введите нижнюю границу'))
+step = int(input('Введтие шаг'))
+
+for i in range(low_line, hight_line, step):
+	print(i)
